@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dev10 Diner</title>
+	<!-- Meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CDN copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="restaurantStyles.css">
+    <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
+
+	<style type="text/css">
+	.foodItem{
+		margin: auto;
+		padding: 5px;
+		font-family: 'DM Serif Display', serif; 
+	}
+	.title{
+		font-size: 2.5em
+	}
+	.menu{
+        background: linear-gradient(90deg, rgba(72,253,255,1) 8%, rgba(255,105,180,1) 50%, rgba(72,253,255,1) 96%);
+		text-align: center;
+	}
+	.card{
+		background: linear-gradient(90deg, rgba(255,246,72,0.8) 8%, rgba(255,246,72,0.5) 50%, rgba(255,246,72,0.8) 96%);
+	}
+        
+  a {
+    text-decoration: underline;
+  }
+ 
+  a:link {
+    color: #C0C0C0;
+  }
+  
+  a:visited {
+    color: rgba(255,105,180,1);
+  }
+  
+  a:hover {
+    font-weight: bold;
+  }
+  
+  a:active {
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+    .nav-pills li {
+    margin-left: 11px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+        
+    .nav-pills a {
+    text-decoration: underline;
+    }
+    .nav-pills a:hover {
+    font-weight: bold;
+    }
+    
+    .nav-pills a:active {
+    text-decoration: none;
+    }
+        
+	caption{
+		caption-side: top;
+		text-align: center;
+	}
+	</style>
+
+</head>
+<body>
+
+  <div class="header1"> Menu
+  </div>
+
+  <hr>
+    
+  <div class="header2"> Dev10 Diner
+  </div>
+
+  <hr>
+
+  <!--Navigation Bar-->
+        <ul class="nav nav-pills">
+            <li>
+                <a href="index.html">
+                <i class="fas fa-home"></i>Home  
+                </a>
+            </li>
+            <li>
+                <a href="menu.html">Menu</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact Us</a>
+            </li>
+        </ul>
+
+  <hr>
+    
+  <!-- Jumbotron -->
+    <div class="jumbotron" style="background: linear-gradient(90deg, rgba(161,255,82,1) 20%, rgba(146,1,999,1) 50%, rgba(0,0,255,1) 90%); color: aliceblue; text-align: center; margin-bottom: 0px;">
+        <h2>We're opening a new location!</h2>
+        <h5>Because our customers are the best people in the entire world we will be opening a new location in St. Paul in August of 2019!</h5>
+    </div>
+    
+  <div class="carousel-fluid">
+    <div id="demo" class="carousel slide" data-ride="carousel" data-interval="3000">
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+
+      <!-- Carousel Info Slides -->
+      <div class="carousel-inner">
+
+        <div class="item carousel-item active">
+
+          <div class="carousel-caption">
+	          <h2>Coming Soon...</h2>
+	          <h3>We are opening a new location in St. Paul y'all!</h3>
+          </div>
+        </div>
+
+        <div class="item carousel-item">
+
+          <div class="carousel-caption">
+          <h3>New this month: we are rolling out our seasonal menu with special options for autumn!</h3>
+
+          </div>
+        </div>
+
+        <div class="item carousel-item">
+
+          <div class="carousel-caption">
+            <h2>Drink of the Month: SG Special Brew</h2>
+            <h3>Drink it. Seriously.</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </div>
+  
+	
+	<!-- Menu Content -->
+	<div class=" menu container-fluid">
+
+	<noscript><h2>
+	    ****This website is best viewed with JavaScript enabled in your browser****<br><br>
+	    ****Here are some <a href="http://www.enable-javascript.com/" target="_blank">
+	    instructions on how to enable JavaScript in your web browser</a>****</h2>
+	</noscript>
+
+		<div class="row" style="padding-top: 20px;">
+
+			<div class="col-lg-4 col-md-6 mt-2">
+				<div class="card">
+					<p class="foodItem"><span class="title"><strong>What the French... Toast?</strong></span><br>
+						You know what they say about the French... that you should add powdered sugar, vanilla, cinnamon, and an egg to them in order to get the best result! <br>$0.07
+					</p>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6 mt-2">
+				<div class="card">
+					<p class="foodItem"><span class="title"><strong>Diabetes</strong></span><br>			Waffles made from only the purest high fructose corn syrup topped with even more corn syrup in the form of "maple" syrup, sprinkles, whip cream, and "fruit". <br>*Add insulin shot for $5.* <br>$Your Life (so like $1.99)
+					</p>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6 mt-2">
+				<div class="card">
+					<p class="foodItem"><span class="title"><strong>Intermittent Faster</strong></span><br>													
+						Has it been at least 20 hours since you last ate?  Didn't think so.  That is why we are accomodating all intermittent fasters with a heaping pile of empty plate.  Hope you're hungry!<br> $24.00
+					</p>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6 mt-2">
+				<div class="card">
+					<p class="foodItem"><span class="title"><strong>Yolko Uno
+                    </strong></span><br>
+						A single egg yolk served cooked or uncooked the way you want it.  Good luck finding any beatles near this dish.  <br>*Add a wedge of John Lemon for no extra charge.*
+                    <br>$1.00
+					</p>
+				</div>
+
+			</div>
+
+			<div class="col-lg-4 col-md-6 mt-2">
+				<div class="card">
+					<p class="foodItem"><span class="title"><strong>Kevin Fakin'</strong></span><br>
+						Even though you will never ever in your entire life meet Kevin Bacon we are offering the next best thing... which is 5 strips of the finest tofu that tried really hard to taste like actual bacon.<br>$38.00
+					</p>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6 mt-2">
+				<div class="card">
+					<p class="foodItem"><span class="title"><strong>Literal Pancake</strong></span><br>
+						A cake that is made from a pan.  Comes in your choice of teflon-coated non-stick carcinogen or cast iron for fans of heavy metal.<br>$0.21
+					</p>
+				</div>
+			</div>
+
+			<div class="foodItem col-lg-4 col-md-6 mt-2">
+				<table class="table table-light table table-striped">
+					<tbody>
+                        
+                        <tr>
+                        <td colspan="2" align="center">
+                            <b><p style= "font-size:30px"> Cold Beverages</b>
+                        </td>
+                        </tr>
+						<tr>
+							<td>Root Beer</td>
+							<td>$3.00</td>
+						</tr>
+						<tr>
+							<td>Bottled Water</td>
+							<td>$1.25</td>
+						</tr>
+						<tr>
+							<td>Lemonade</td>
+							<td>$1.00</td>
+						</tr>
+                        <tr>
+							<td>Iced Tea</td>
+							<td>$1.25</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="foodItem col-lg-4 col-md-6 mt-2">
+				<table class="table table-light table-striped">
+                        <td colspan="2" align="center">
+                            <b><p style= "font-size:30px"> Hot Beverages</p>
+					<tbody>
+						<tr>
+							<td>SG Special Brew Coffee</td>
+							<td>$2.00</td>
+						</tr>
+						<tr>
+							<td>Java</td>
+							<td>$1.00</td>
+						</tr>
+						<tr>
+							<td>Hot Chocolate</td>
+							<td>$1.50</td>
+						</tr>
+                        <tr>
+							<td>Tea</td>
+							<td>$1.25</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<hr>
+  <footer>
+    <p><em>10 Developer Way, Land of the Guild, MN, 55402</em></p>
+    <p><em>(612) 867-5309</em></p>
+  </footer>
+
+    <!-- CDN links copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
